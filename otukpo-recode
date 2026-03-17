@@ -17,7 +17,7 @@ func binTodecimal(hexstr string) (int64, error) {
 }
 
 // question 3
-func capWords(s string) string {
+func capFirstLetter(s string) string {
 	words := strings.Split(s, " ")
 
 	for i, w := range words {
